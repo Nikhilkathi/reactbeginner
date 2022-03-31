@@ -1,19 +1,22 @@
 import React from 'react'
 const One=()=>{
     return(
-        <div className="navbar navbar-dark navbar-extend-lg"> 
-            <section>
-                <ul>
-                    <a className='navbar-brand' href='#'>Pro Stack</a>
-            <li className='navbar-list'><a className='navbar-link' href="#">Home</a></li>
-            <li className=''><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-                </ul>
-            </section>
-            
-            </div>
+        <nav className='navbar navbar-dark bg-dark navbar-expand-lg'>
+            <ul>
+                <a className='navbar-brand' href='#'>Pro Stack</a>
+                <li className='navbar-list'><a className='navbar-link' href='#'>Home</a></li>
+            </ul>
+
+        </nav>
+           
     )
 }
-export default One
+class Name extends React.Component{
+    state={
+        msg: "Hello"
+    }
+render(){
+    return <div>`This a {this.state.msg} Example`</div>
+}
+}
+export {One,Name}
