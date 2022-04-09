@@ -4,7 +4,7 @@ const One=()=>{
         <nav className='navbar navbar-dark bg-dark navbar-expand-lg'>
             <ul>
                 <a className='navbar-brand' href='#'>Pro Stack</a>
-                <li className='navbar-list'><a className='navbar-link' href='#'>Home</a></li>
+               
             </ul>
 
         </nav>
