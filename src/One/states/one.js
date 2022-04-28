@@ -1,15 +1,13 @@
 import react from 'react'
 class Text extends react.Component{
-
     state = {
-
     msg: "Hello"
 }
 messageHandler = () => {
     this.setState({ msg: "Good Morning....." })
 }
 gnHandler = () => {
-    this.setState({ msg: "ava : 112" })
+    this.setState({ msg: "" })
 }
 render() {
     console.log("render method")

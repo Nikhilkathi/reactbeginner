@@ -1,14 +1,14 @@
-import {One,Name} from "./One/One"
-import form from "./form/form"
-//import Text from "./One/states/one"
-//import two from "./One/states/two"
+import react from 'react'
+import{BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import { One,Name } from './One/One'
+import Form from './Form/Form'
 function App(){
-  return(
-<div> 
+return <div>
+  <Router>
   <One/>
-  <form />
-  
+  </Router>
+  <Name/>
+  <Form/>
 </div>
-  )
 }
  export default App
